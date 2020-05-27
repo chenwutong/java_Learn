@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		
+	],
+	
+	"settings": {
+		"code-runner.executorMap": {
+			"java": "cd $dir && javac -encoding utf-8 $fileName -d bin && cd bin && java $fileNameWithoutExt",
+			"cpp": "cd $dir && g++ -std=c++11 $fileName -o bin/$fileNameWithoutExt.exe && ./bin/$fileNameWithoutExt.exe",
+		},
+		"code-runner.runInTerminal": true,
+		"C_Cpp.errorSquiggles": "Enabled",
+		"debug.onTaskErrors": "showErrors",
+		"files.associations": {
+			"array": "cpp",
+			"string": "cpp",
+			"string_view": "cpp"
+		},
+    }
+}
