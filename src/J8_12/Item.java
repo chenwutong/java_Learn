@@ -9,7 +9,7 @@ public class Item {
     public void effect(){
         System.out.println("物品效果");
     }
-
+//
     public static void main(String[] args) {
         Item i = new Item();
         i.effect();
