@@ -2,7 +2,7 @@ package src.J8_12;
 public class J8_12{
 
 }
-class Hero {
+class Hero1 {
     public String name;
     protected float hp;
 
@@ -20,16 +20,16 @@ class Hero {
     }
 
     public static void main(String[] args) {
-        Hero garen =  new Hero();
+        Hero1 garen =  new Hero1();
         garen.name = "盖伦";
         //必须有一个对象才能调用
         garen.die();
 
-        Hero teemo =  new Hero();
+        Hero1 teemo =  new Hero1();
         teemo.name = "提莫";
 
         //无需对象，直接通过类调用
-        Hero.battleWin();
+        Hero1.battleWin();
 
     }
 }
