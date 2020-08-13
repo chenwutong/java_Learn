@@ -12,6 +12,21 @@ public class Item {
     public void effect(){
         System.out.println("物品效果");
     }
+    public String toString(){
+        return name.toString();
+
+    }
+
+    public void finalize(){
+        System.out.println("开始回收");
+    }
+    public boolean equals(Object o ){
+        if (o instanceof Hero){
+            Item h = (Item) o;
+            return this.price== h.price;
+        }
+        return false;
+    }
 
     public static void main(String[] args) {
         Item i = new Item();
