@@ -1,4 +1,7 @@
-package src.J8_12;
+package src.J8_13;
+
+import src.J8_12.LifePtion;
+import src.J8_12.MagicPotion;
 
 public class Item {
     String name;
