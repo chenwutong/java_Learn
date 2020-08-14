@@ -1,9 +1,9 @@
-package src.J8_13;
+package src.J8_14;
 
-import src.J8_12.LifePtion;
 import src.J8_12.MagicPotion;
+import src.J8_13.Hero;
 
-public class Item {
+public abstract class Item {
     String name;
     int price;
     public void buy(){
@@ -16,7 +16,7 @@ public class Item {
         return name.toString();
 
     }
-
+    public abstract boolean disposable();
     public void finalize(){
         System.out.println("开始回收");
     }
@@ -29,11 +29,11 @@ public class Item {
     }
 
     public static void main(String[] args) {
-        Item i = new Item();
-        i.effect();
+//        Item i = new Item();
+//        i.effect();
         Item lp = new LifePtion();
         lp.effect();
-        Item mp = new MagicPotion();
-        mp.effect();
+        //Item mp = new MagicPotion();
+        //mp.effect();
     }
 }

@@ -1,8 +1,7 @@
 package src.J8_13;
 
-import src.J8_12.LifePtion;
-import src.J8_13.AD;
-import src.J8_13.Hero;
+import src.J8_14.LifePtion;
+import src.J8_14.Item;
 
 public class ADhero extends Hero implements AD {
     int moveSpeed =400;

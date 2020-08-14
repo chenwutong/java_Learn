@@ -1,5 +1,7 @@
 package src.J8_13;
 
+import src.J8_14.Item;
+
 public class Hero extends Object{
     String name;
     float hp;
