@@ -8,7 +8,7 @@ public abstract class Item implements ad{
                 System.out.println("阿斯顿发");
             }
         };
-        ad.qwe();
+
     }
 
 }

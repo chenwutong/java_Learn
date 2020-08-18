@@ -1,8 +1,7 @@
 package src.J8_18;
 
-public interface ad {
-
+public interface AP {
     default public void attack(){
-        System.out.println("ad");
+        System.out.println("ap");
     }
 }
