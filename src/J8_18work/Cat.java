@@ -7,10 +7,11 @@ public class Cat extends Animal implements Pet{
 
     }
     public void Cat(){
-
+        this.Cat("猫");
     }
     public void Cat(String name){
-
+        this.name = name;
+        Animal(4);
     }
     @Override
     public String getName(){

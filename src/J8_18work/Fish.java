@@ -1,6 +1,7 @@
 package src.J8_18work;
 
 public class Fish extends Animal implements Pet {
+    private String name = "鱼";
     @Override
     public void eat() {
 
@@ -23,8 +24,9 @@ public class Fish extends Animal implements Pet {
     public void Fish(){
 
     }
+    @Override
     public void walk(){
-
+        System.out.println("不能行走");
     }
 
 
