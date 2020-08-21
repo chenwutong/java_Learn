@@ -6,5 +6,6 @@ public class TestNumber {
         Integer it = new Integer(i);
         int i2 = it.intValue();
         System.out.println(it instanceof Number);
+        Integer It2 = i;
     }
 }
