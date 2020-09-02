@@ -26,6 +26,7 @@ public class TestDate {
         } catch (ParseException e) {
             e.printStackTrace();
         }
+        System.out.println("qqqq");
         long end = 0;
         try {
             end = sdf.parse("1976").getTime()-1;
